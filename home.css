@@ -1,0 +1,68 @@
+body{
+    background-color: darkslategray;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.header {
+    text-align: center;
+    padding: 5px;
+}
+.logo img {
+    max-width: 70%;
+    height: auto;
+    max-height: 350px;
+}
+.upload_zone {
+    text-align: center;
+    padding: 50px;
+}
+.text textarea {
+    width: 65%;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: auto;
+    resize: none;
+    min-height: 20px;
+    max-height: 320px;
+}
+#qrcode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.description{
+    text-align: center;
+}
+.description h1 {
+    color: #e9e9e9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            background-color: rgb(55, 90, 90);
+            display: inline-block;
+            border-radius: 8px
+}
+
+p {
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+    color: #e9e9e9;
+    text-shadow: 2px 2px 3px rgba(237, 235, 235, 0.25);
+}
+.download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.download_qrcode{
+    color: aliceblue;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: rgb(93, 128, 128);
+    display: inline-block;
+    border-radius: 8px;
+}
